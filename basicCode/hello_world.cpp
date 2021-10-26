@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
-cout<<"Hello World";
+cout<<"Hello World"<<endl;
+cout<<"I am an OpenFoam fan"<<endl;
 return 0;
 }
