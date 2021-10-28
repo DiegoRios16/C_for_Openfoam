@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <vectors.h>
 using namespace std;
 double vector_length(double x, double y, double z);
 //double vector_add[3][1](double vector1[3][1]);
@@ -28,12 +29,14 @@ private:
 int main()
 {
 //	cout<<vector_add(vector1);
+	#include <vectors.h>
 	Vectors vec;
 	vec.setVector1();
 	vec.setVector2();
 	vec.addVectors();
 	vec.printVectorSum();
 	vec.vector1Length();
+	main2();
 	return 0;
 
 }
